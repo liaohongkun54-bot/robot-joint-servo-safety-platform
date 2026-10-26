@@ -28,3 +28,6 @@ __pycache__/
 *.lic
 /private/
 /progress-evidence/
+
+/MDK-ARM/DebugConfig/
+/MDK-ARM/RTE/
