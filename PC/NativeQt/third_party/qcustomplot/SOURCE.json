@@ -1,0 +1,11 @@
+{
+  "version": "2.1.1",
+  "source_url": "https://www.qcustomplot.com/release/2.1.1/QCustomPlot-source.tar.gz",
+  "archive_sha256": "5e2d22dec779db8f01f357cbdb25e54fbcf971adaee75eae8d7ad2444487182f",
+  "license": "Upstream GPL; commercial distribution requires appropriate licensing review",
+  "files": {
+    "GPL.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+    "qcustomplot.cpp": "364c095b6c1baeda33c43c44d19d15fae011319e3990985c7ac29e26d6ac8ef8",
+    "qcustomplot.h": "920646e8db6406a568bed52a121db6498a2c507a687400f3a559e3d840f1888c"
+  }
+}

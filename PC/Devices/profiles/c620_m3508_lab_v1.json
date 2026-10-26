@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "profile_id": "c620_m3508_lab_v1",
+  "vendor": "DJI RoboMaster",
+  "drive_model": "C620",
+  "motor_model": "M3508 P19",
+  "drive_firmware": "not_asserted_by_public_showcase",
+  "protocol_family": "vendor_can",
+  "physical_interface": "CAN classic, current C-board configuration 1 Mbps, node ID 1",
+  "adapter_id": "c620_id1_v1",
+  "control_modes": [
+    {
+      "mode_id": "bounded_current_test",
+      "command_unit": "C620 command raw; not amperes",
+      "min_command": -1000,
+      "max_command": 1000,
+      "max_duration_ms": 100
+    },
+    {
+      "mode_id": "fixed_positive_run",
+      "command_unit": "C620 command raw; not amperes",
+      "min_command": 1000,
+      "max_command": 1000,
+      "max_duration_ms": 1000
+    }
+  ],
+  "feedback_fields": [
+    {
+      "field_id": "encoder_raw",
+      "unit": "raw count; nominal encoder range",
+      "value_min": 0,
+      "value_max": 8191
+    },
+    {
+      "field_id": "speed_rpm",
+      "unit": "rpm; signed protocol field",
+      "value_min": -32768,
+      "value_max": 32767
+    },
+    {
+      "field_id": "current_raw",
+      "unit": "raw; ampere conversion unverified",
+      "value_min": -32768,
+      "value_max": 32767
+    },
+    {
+      "field_id": "temperature_c",
+      "unit": "degree Celsius; unsigned protocol field",
+      "value_min": 0,
+      "value_max": 255
+    }
+  ],
+  "fault_semantics": "MCU-local safety gates are represented by source and host tests; this public snapshot contains no raw hardware acceptance evidence.",
+  "stop_semantics": "MCU sends a zero-current command at deadline or fault; stop receipt is not mechanical standstill evidence.",
+  "hardware_conditions": [
+    "C-board, drive supply, common reference, CAN wiring, termination, current limit and quick power cut require per-run verification.",
+    "Only the existing fixed-ID C620 adapter is represented; no other motor or drive is implied."
+  ],
+  "test_claims": []
+}

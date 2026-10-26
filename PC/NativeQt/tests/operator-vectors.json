@@ -1,0 +1,225 @@
+{
+  "synthetic_protocol_vectors": true,
+  "task": {
+    "fields": {
+      "schema_version": 1,
+      "request_id": 900,
+      "target_node_id": 1,
+      "action": 1,
+      "amplitude_raw": 1000,
+      "amplitude_limit_raw": 1000,
+      "duration_ms": 1000,
+      "feedback_timeout_ms": 100,
+      "timeout_policy": 1,
+      "permission": 1
+    },
+    "hex": "4b54010116000100840300000101e803e803e80300006400000001019ae8"
+  },
+  "requests": [
+    {
+      "fields": {
+        "request_id": 1001,
+        "nonce": 305419896,
+        "boot_low": 0,
+        "boot_high": 0,
+        "session_id": 0,
+        "sequence": 0,
+        "operation": 1,
+        "task": null
+      },
+      "hex": "4b5401073000e90300007856341200000000000000000000000000000000010000000000000000000000000000000000000000000000d589"
+    },
+    {
+      "fields": {
+        "request_id": 1002,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 2,
+        "operation": 2,
+        "task": null
+      },
+      "hex": "4b5401073000ea03000078563412111100002222000007000000020000000200000000000000000000000000000000000000000000002a62"
+    },
+    {
+      "fields": {
+        "request_id": 1003,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 3,
+        "operation": 3,
+        "task": {
+          "schema_version": 1,
+          "request_id": 900,
+          "target_node_id": 1,
+          "action": 1,
+          "amplitude_raw": 1000,
+          "amplitude_limit_raw": 1000,
+          "duration_ms": 1000,
+          "feedback_timeout_ms": 100,
+          "timeout_policy": 1,
+          "permission": 1
+        }
+      },
+      "hex": "4b5401073000eb030000785634121111000022220000070000000300000003000100840300000101e803e803e80300006400000001013d33"
+    },
+    {
+      "fields": {
+        "request_id": 1004,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 4,
+        "operation": 4,
+        "task": null
+      },
+      "hex": "4b5401073000ec03000078563412111100002222000007000000040000000400000000000000000000000000000000000000000000005c55"
+    },
+    {
+      "fields": {
+        "request_id": 1005,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 5,
+        "operation": 5,
+        "task": null
+      },
+      "hex": "4b5401073000ed03000078563412111100002222000007000000050000000500000000000000000000000000000000000000000000002aac"
+    },
+    {
+      "fields": {
+        "request_id": 1006,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 6,
+        "operation": 6,
+        "task": null
+      },
+      "hex": "4b5401073000ee030000785634121111000022220000070000000600000006000000000000000000000000000000000000000000000091b7"
+    }
+  ],
+  "replies": [
+    {
+      "fields": {
+        "request_id": 1001,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 0,
+        "timestamp_ms": 0,
+        "operation": 1,
+        "result": 0,
+        "flags": 1,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 1000
+      },
+      "hex": "545201073000e903000078563412111100002222000007000000000000000000000001000100000000000000000000000000e803000025f6"
+    },
+    {
+      "fields": {
+        "request_id": 1002,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 2,
+        "timestamp_ms": 0,
+        "operation": 2,
+        "result": 0,
+        "flags": 1,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 1000
+      },
+      "hex": "545201073000ea03000078563412111100002222000007000000020000000000000002000100000000000000000000000000e8030000dace"
+    },
+    {
+      "fields": {
+        "request_id": 1003,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 3,
+        "timestamp_ms": 0,
+        "operation": 3,
+        "result": 0,
+        "flags": 3,
+        "task_request_id": 900,
+        "fault_code": 0,
+        "grant_remaining_ms": 10000,
+        "session_remaining_ms": 1000
+      },
+      "hex": "545201073000eb03000078563412111100002222000007000000030000000000000003000300840300000000000010270000e8030000dfe4"
+    },
+    {
+      "fields": {
+        "request_id": 1004,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 4,
+        "timestamp_ms": 0,
+        "operation": 4,
+        "result": 0,
+        "flags": 1,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 1000
+      },
+      "hex": "545201073000ec03000078563412111100002222000007000000040000000000000004000100000000000000000000000000e80300000cf6"
+    },
+    {
+      "fields": {
+        "request_id": 1005,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 5,
+        "timestamp_ms": 0,
+        "operation": 5,
+        "result": 0,
+        "flags": 1,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 1000
+      },
+      "hex": "545201073000ed03000078563412111100002222000007000000050000000000000005000100000000000000000000000000e8030000ca0d"
+    },
+    {
+      "fields": {
+        "request_id": 1006,
+        "nonce": 305419896,
+        "boot_low": 4369,
+        "boot_high": 8738,
+        "session_id": 7,
+        "sequence": 6,
+        "timestamp_ms": 0,
+        "operation": 6,
+        "result": 0,
+        "flags": 0,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 0
+      },
+      "hex": "545201073000ee0300007856341211110000222200000700000006000000000000000600000000000000000000000000000000000000e9b9"
+    }
+  ]
+}

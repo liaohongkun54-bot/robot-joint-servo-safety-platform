@@ -1,0 +1,948 @@
+{
+  "synthetic_only": true,
+  "queries": [
+    {
+      "type": 4,
+      "request": 305419896,
+      "nonce": 2561396207,
+      "hex": "4b540104160078563412efcdab98010000000000000000000000000098a4"
+    },
+    {
+      "type": 5,
+      "request": 305419896,
+      "nonce": 2561396207,
+      "hex": "4b540105160078563412efcdab9801000000000000000000000000002ce1"
+    },
+    {
+      "type": 6,
+      "request": 305419896,
+      "nonce": 2561396207,
+      "hex": "4b540106160078563412efcdab980100000000000000000000000000f02f"
+    }
+  ],
+  "responses": [
+    {
+      "type": 6,
+      "hex": "54520106280064000000c8000000e803000011111111222222223333333301003f0001010100652d3101c0d401007f6b",
+      "fields": {
+        "request_id": 100,
+        "nonce": 200,
+        "timestamp_ms": 1000,
+        "uid_word0": 286331153,
+        "uid_word1": 572662306,
+        "uid_word2": 858993459,
+        "feature_mask": 63,
+        "firmware_version": 65793,
+        "build_date": 20000101,
+        "build_time": 120000
+      }
+    },
+    {
+      "type": 4,
+      "hex": "545201041e0065000000c9000000f203000001000100020001000000020040000000000075b4",
+      "fields": {
+        "request_id": 101,
+        "nonce": 201,
+        "timestamp_ms": 1010,
+        "feature_mask": 1,
+        "safety_state": 2,
+        "output_permitted": 0,
+        "zero_output_required": 1,
+        "fault_latched": 0,
+        "motion_active": 0,
+        "record_count": 2,
+        "safety_fault_code": 0
+      }
+    },
+    {
+      "type": 7,
+      "hex": "54520107300066000000ca00000001000000020000000300000000000000fc03000001000100000000000000000000000000e803000019df",
+      "fields": {
+        "request_id": 102,
+        "nonce": 202,
+        "boot_low": 1,
+        "boot_high": 2,
+        "session_id": 3,
+        "sequence": 0,
+        "timestamp_ms": 1020,
+        "operation": 1,
+        "result": 0,
+        "flags": 1,
+        "task_request_id": 0,
+        "fault_code": 0,
+        "grant_remaining_ms": 0,
+        "session_remaining_ms": 1000
+      }
+    },
+    {
+      "type": 2,
+      "hex": "54520102100084030000d007000000000300020602012df0",
+      "fields": {
+        "request_id": 900,
+        "timestamp_ms": 2000,
+        "error_code": 0,
+        "record_count": 3,
+        "status": 2,
+        "stage": 6,
+        "safety_state": 2,
+        "flags": 1
+      }
+    },
+    {
+      "type": 3,
+      "hex": "54520103220084030000890a0000e8037800140064001905020100000000c800000096003c00000018e9",
+      "fields": {
+        "request_id": 900,
+        "timestamp_ms": 2697,
+        "command_amplitude_raw": 1000,
+        "feedback_speed_rpm": 120,
+        "feedback_current_raw": 20,
+        "feedback_encoder_raw": 100,
+        "feedback_temperature_c": 25,
+        "stop_reason": 5,
+        "safety_state": 2,
+        "link_state": 1,
+        "safety_fault_code": 0,
+        "observation_abs_travel_raw": 200,
+        "observation_peak_abs_speed_rpm": 150,
+        "observation_sample_count": 60
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200e8030000d0070000b80b0000ae0b00000100000064000000000019010101010200003df1",
+      "fields": {
+        "request_id": 1000,
+        "nonce": 2000,
+        "sample_tick_ms": 3000,
+        "last_rx_tick_ms": 2990,
+        "valid_frame_count": 1,
+        "encoder_raw": 100,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200e9030000d10700001c0c0000120c0000020000006500000000001901010101020000e41f",
+      "fields": {
+        "request_id": 1001,
+        "nonce": 2001,
+        "sample_tick_ms": 3100,
+        "last_rx_tick_ms": 3090,
+        "valid_frame_count": 2,
+        "encoder_raw": 101,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ea030000d2070000800c0000760c00000300000066000000000019010101010200002d1a",
+      "fields": {
+        "request_id": 1002,
+        "nonce": 2002,
+        "sample_tick_ms": 3200,
+        "last_rx_tick_ms": 3190,
+        "valid_frame_count": 3,
+        "encoder_raw": 102,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200eb030000d3070000e40c0000da0c000004000000670000000000190101010102000042ff",
+      "fields": {
+        "request_id": 1003,
+        "nonce": 2003,
+        "sample_tick_ms": 3300,
+        "last_rx_tick_ms": 3290,
+        "valid_frame_count": 4,
+        "encoder_raw": 103,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ec030000d4070000480d00003e0d0000050000006800000000001901010101020000d61b",
+      "fields": {
+        "request_id": 1004,
+        "nonce": 2004,
+        "sample_tick_ms": 3400,
+        "last_rx_tick_ms": 3390,
+        "valid_frame_count": 5,
+        "encoder_raw": 104,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ed030000d5070000ac0d0000a20d000006000000690000000000190101010102000046d3",
+      "fields": {
+        "request_id": 1005,
+        "nonce": 2005,
+        "sample_tick_ms": 3500,
+        "last_rx_tick_ms": 3490,
+        "valid_frame_count": 6,
+        "encoder_raw": 105,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ee030000d6070000100e0000060e0000070000006a0000000000190101010102000013d7",
+      "fields": {
+        "request_id": 1006,
+        "nonce": 2006,
+        "sample_tick_ms": 3600,
+        "last_rx_tick_ms": 3590,
+        "valid_frame_count": 7,
+        "encoder_raw": 106,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ef030000d7070000740e00006a0e0000080000006b00000000001901010101020000dcac",
+      "fields": {
+        "request_id": 1007,
+        "nonce": 2007,
+        "sample_tick_ms": 3700,
+        "last_rx_tick_ms": 3690,
+        "valid_frame_count": 8,
+        "encoder_raw": 107,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f0030000d8070000d80e0000ce0e0000090000006c00000000001901010101020000165c",
+      "fields": {
+        "request_id": 1008,
+        "nonce": 2008,
+        "sample_tick_ms": 3800,
+        "last_rx_tick_ms": 3790,
+        "valid_frame_count": 9,
+        "encoder_raw": 108,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f1030000d90700003c0f0000320f00000a0000006d0000000000190101010102000033bb",
+      "fields": {
+        "request_id": 1009,
+        "nonce": 2009,
+        "sample_tick_ms": 3900,
+        "last_rx_tick_ms": 3890,
+        "valid_frame_count": 10,
+        "encoder_raw": 109,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f2030000da070000a00f0000960f00000b0000006e0000000000190101010102000035d1",
+      "fields": {
+        "request_id": 1010,
+        "nonce": 2010,
+        "sample_tick_ms": 4000,
+        "last_rx_tick_ms": 3990,
+        "valid_frame_count": 11,
+        "encoder_raw": 110,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f3030000db07000004100000fa0f00000c0000006f000000000019010101010200006402",
+      "fields": {
+        "request_id": 1011,
+        "nonce": 2011,
+        "sample_tick_ms": 4100,
+        "last_rx_tick_ms": 4090,
+        "valid_frame_count": 12,
+        "encoder_raw": 111,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f4030000dc070000681000005e1000000d0000007000000000001901010101020000deaa",
+      "fields": {
+        "request_id": 1012,
+        "nonce": 2012,
+        "sample_tick_ms": 4200,
+        "last_rx_tick_ms": 4190,
+        "valid_frame_count": 13,
+        "encoder_raw": 112,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f5030000dd070000cc100000c21000000e000000710000000000190101010102000007ef",
+      "fields": {
+        "request_id": 1013,
+        "nonce": 2013,
+        "sample_tick_ms": 4300,
+        "last_rx_tick_ms": 4290,
+        "valid_frame_count": 14,
+        "encoder_raw": 113,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f6030000de07000030110000261100000f0000007200000000001901010101020000e483",
+      "fields": {
+        "request_id": 1014,
+        "nonce": 2014,
+        "sample_tick_ms": 4400,
+        "last_rx_tick_ms": 4390,
+        "valid_frame_count": 15,
+        "encoder_raw": 114,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f7030000df070000941100008a110000100000007300000000001901010101020000e1e2",
+      "fields": {
+        "request_id": 1015,
+        "nonce": 2015,
+        "sample_tick_ms": 4500,
+        "last_rx_tick_ms": 4490,
+        "valid_frame_count": 16,
+        "encoder_raw": 115,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f8030000e0070000f8110000ee110000110000007400000000001901010101020000560b",
+      "fields": {
+        "request_id": 1016,
+        "nonce": 2016,
+        "sample_tick_ms": 4600,
+        "last_rx_tick_ms": 4590,
+        "valid_frame_count": 17,
+        "encoder_raw": 116,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200f9030000e10700005c12000052120000120000007500000000001901010101020000c584",
+      "fields": {
+        "request_id": 1017,
+        "nonce": 2017,
+        "sample_tick_ms": 4700,
+        "last_rx_tick_ms": 4690,
+        "valid_frame_count": 18,
+        "encoder_raw": 117,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200fa030000e2070000c0120000b6120000130000007600000000001901010101020000993b",
+      "fields": {
+        "request_id": 1018,
+        "nonce": 2018,
+        "sample_tick_ms": 4800,
+        "last_rx_tick_ms": 4790,
+        "valid_frame_count": 19,
+        "encoder_raw": 118,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200fb030000e3070000241300001a1300001400000077000000000019010101010200000744",
+      "fields": {
+        "request_id": 1019,
+        "nonce": 2019,
+        "sample_tick_ms": 4900,
+        "last_rx_tick_ms": 4890,
+        "valid_frame_count": 20,
+        "encoder_raw": 119,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200fc030000e4070000881300007e130000150000007800000000001901010101020000448a",
+      "fields": {
+        "request_id": 1020,
+        "nonce": 2020,
+        "sample_tick_ms": 5000,
+        "last_rx_tick_ms": 4990,
+        "valid_frame_count": 21,
+        "encoder_raw": 120,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200fd030000e5070000ec130000e21300001600000079000000000019010101010200006748",
+      "fields": {
+        "request_id": 1021,
+        "nonce": 2021,
+        "sample_tick_ms": 5100,
+        "last_rx_tick_ms": 5090,
+        "valid_frame_count": 22,
+        "encoder_raw": 121,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200fe030000e60700005014000046140000170000007a00000000001901010101020000782d",
+      "fields": {
+        "request_id": 1022,
+        "nonce": 2022,
+        "sample_tick_ms": 5200,
+        "last_rx_tick_ms": 5190,
+        "valid_frame_count": 23,
+        "encoder_raw": 122,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "545201052200ff030000e7070000b4140000aa140000180000007b0000000000190101010102000091e6",
+      "fields": {
+        "request_id": 1023,
+        "nonce": 2023,
+        "sample_tick_ms": 5300,
+        "last_rx_tick_ms": 5290,
+        "valid_frame_count": 24,
+        "encoder_raw": 123,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220000040000e8070000181500000e150000190000007c00000000001901010101020000d357",
+      "fields": {
+        "request_id": 1024,
+        "nonce": 2024,
+        "sample_tick_ms": 5400,
+        "last_rx_tick_ms": 5390,
+        "valid_frame_count": 25,
+        "encoder_raw": 124,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220001040000e90700007c150000721500001a0000007d000000000019010101010200009290",
+      "fields": {
+        "request_id": 1025,
+        "nonce": 2025,
+        "sample_tick_ms": 5500,
+        "last_rx_tick_ms": 5490,
+        "valid_frame_count": 26,
+        "encoder_raw": 125,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220002040000ea070000e0150000d61500001b0000007e0000000000190101010102000094fa",
+      "fields": {
+        "request_id": 1026,
+        "nonce": 2026,
+        "sample_tick_ms": 5600,
+        "last_rx_tick_ms": 5590,
+        "valid_frame_count": 27,
+        "encoder_raw": 126,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220003040000eb070000441600003a1600001c0000007f00000000001901010101020000bced",
+      "fields": {
+        "request_id": 1027,
+        "nonce": 2027,
+        "sample_tick_ms": 5700,
+        "last_rx_tick_ms": 5690,
+        "valid_frame_count": 28,
+        "encoder_raw": 127,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220004040000ec070000a81600009e1600001d000000800000000000190101010102000080e6",
+      "fields": {
+        "request_id": 1028,
+        "nonce": 2028,
+        "sample_tick_ms": 5800,
+        "last_rx_tick_ms": 5790,
+        "valid_frame_count": 29,
+        "encoder_raw": 128,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220005040000ed0700000c170000021700001e00000081000000000019010101010200001b33",
+      "fields": {
+        "request_id": 1029,
+        "nonce": 2029,
+        "sample_tick_ms": 5900,
+        "last_rx_tick_ms": 5890,
+        "valid_frame_count": 30,
+        "encoder_raw": 129,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220006040000ee07000070170000661700001f00000082000000000019010101010200009c7f",
+      "fields": {
+        "request_id": 1030,
+        "nonce": 2030,
+        "sample_tick_ms": 6000,
+        "last_rx_tick_ms": 5990,
+        "valid_frame_count": 31,
+        "encoder_raw": 130,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220007040000ef070000d4170000ca17000020000000830000000000190101010102000046eb",
+      "fields": {
+        "request_id": 1031,
+        "nonce": 2031,
+        "sample_tick_ms": 6100,
+        "last_rx_tick_ms": 6090,
+        "valid_frame_count": 32,
+        "encoder_raw": 131,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220008040000f0070000381800002e1800002100000084000000000019010101010200002f82",
+      "fields": {
+        "request_id": 1032,
+        "nonce": 2032,
+        "sample_tick_ms": 6200,
+        "last_rx_tick_ms": 6190,
+        "valid_frame_count": 33,
+        "encoder_raw": 132,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220009040000f10700009c180000921800002200000085000000000019010101010200005bad",
+      "fields": {
+        "request_id": 1033,
+        "nonce": 2033,
+        "sample_tick_ms": 6300,
+        "last_rx_tick_ms": 6290,
+        "valid_frame_count": 34,
+        "encoder_raw": 133,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000a040000f207000000190000f618000023000000860000000000190101010102000026ed",
+      "fields": {
+        "request_id": 1034,
+        "nonce": 2034,
+        "sample_tick_ms": 6400,
+        "last_rx_tick_ms": 6390,
+        "valid_frame_count": 35,
+        "encoder_raw": 134,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000b040000f3070000641900005a190000240000008700000000001901010101020000bfdd",
+      "fields": {
+        "request_id": 1035,
+        "nonce": 2035,
+        "sample_tick_ms": 6500,
+        "last_rx_tick_ms": 6490,
+        "valid_frame_count": 36,
+        "encoder_raw": 135,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000c040000f4070000c8190000be19000025000000880000000000190101010102000069a9",
+      "fields": {
+        "request_id": 1036,
+        "nonce": 2036,
+        "sample_tick_ms": 6600,
+        "last_rx_tick_ms": 6590,
+        "valid_frame_count": 37,
+        "encoder_raw": 136,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000d040000f50700002c1a0000221a00002600000089000000000019010101010200001ec1",
+      "fields": {
+        "request_id": 1037,
+        "nonce": 2037,
+        "sample_tick_ms": 6700,
+        "last_rx_tick_ms": 6690,
+        "valid_frame_count": 38,
+        "encoder_raw": 137,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000e040000f6070000901a0000861a0000270000008a00000000001901010101020000ac65",
+      "fields": {
+        "request_id": 1038,
+        "nonce": 2038,
+        "sample_tick_ms": 6800,
+        "last_rx_tick_ms": 6790,
+        "valid_frame_count": 39,
+        "encoder_raw": 138,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "5452010522000f040000f7070000f41a0000ea1a0000280000008b00000000001901010101020000631e",
+      "fields": {
+        "request_id": 1039,
+        "nonce": 2039,
+        "sample_tick_ms": 6900,
+        "last_rx_tick_ms": 6890,
+        "valid_frame_count": 40,
+        "encoder_raw": 139,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220010040000f8070000581b00004e1b0000290000008c00000000001901010101020000eb7e",
+      "fields": {
+        "request_id": 1040,
+        "nonce": 2040,
+        "sample_tick_ms": 7000,
+        "last_rx_tick_ms": 6990,
+        "valid_frame_count": 41,
+        "encoder_raw": 140,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220011040000f9070000bc1b0000b21b00002a0000008d000000000019010101010200008c09",
+      "fields": {
+        "request_id": 1041,
+        "nonce": 2041,
+        "sample_tick_ms": 7100,
+        "last_rx_tick_ms": 7090,
+        "valid_frame_count": 42,
+        "encoder_raw": 141,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220012040000fa070000201c0000161c00002b0000008e0000000000190101010102000027a2",
+      "fields": {
+        "request_id": 1042,
+        "nonce": 2042,
+        "sample_tick_ms": 7200,
+        "last_rx_tick_ms": 7190,
+        "valid_frame_count": 43,
+        "encoder_raw": 142,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    },
+    {
+      "type": 5,
+      "hex": "54520105220013040000fb070000841c00007a1c00002c0000008f000000000019010101010200007daf",
+      "fields": {
+        "request_id": 1043,
+        "nonce": 2043,
+        "sample_tick_ms": 7300,
+        "last_rx_tick_ms": 7290,
+        "valid_frame_count": 44,
+        "encoder_raw": 143,
+        "speed_rpm": 0,
+        "current_raw": 0,
+        "temperature_c": 25,
+        "link_state": 1,
+        "has_valid_feedback": 1,
+        "source_id": 1,
+        "feedback_std_id": 513
+      }
+    }
+  ]
+}
