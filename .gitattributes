@@ -1,0 +1,3 @@
+# Preserve validated source bytes and fixture/provenance hashes across clones.
+* -text
+*.png binary
